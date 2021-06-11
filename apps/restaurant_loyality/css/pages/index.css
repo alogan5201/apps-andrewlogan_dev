@@ -1,0 +1,66 @@
+/* -- custom css for file index.html -- */
+
+/* -- fa fa-map-marker -- */
+#obj-32227 {
+	font-size: 25px;
+}
+
+/* -- h1 text-center mb-1 -- */
+#obj-69238 {
+	font-family: Satisfy;
+}
+
+/* -- block custom-block block-text block-strong text-center bg-transparent m-0 p-1 -- */
+#obj-qcgdic809 {
+	color: rgb(251, 1, 6);
+	 line-height: 13px;
+	 border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+
+/* -- block custom-block block-text mt-0 mb-3 -- */
+#obj-56039 {
+	font-size: 17px;
+	 border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+
+/* -- fa text-white fa-cutlery fa-fw s-7 rounded p-2 bg-color-blue -- */
+#obj-25920 {
+	width: 48px;
+}
+
+/* -- h5 mt-0 mb-0 -- */
+#obj-77715 {
+	min-height: 10px;
+}
+
+/* -- fa f7-icons s-7 text-white rounded p-2 bg-color-red -- */
+#obj-40453 {
+	width: 48px;
+}
+
+/* -- fa material-icons s-7 text-white rounded p-2 bg-color-purple -- */
+#obj-29767 {
+	width: 48px;
+}
+
+/* -- fa text-white rounded bg-color-deeporange fa-user s-7 p-2 -- */
+#obj-47332 {
+	width: 48px;
+}
+
+/* -- link text-center p-1 -- */
+#obj-ejunty537 {
+	transform: translateX(116px);
+	 box-sizing: border-box;
+}
+

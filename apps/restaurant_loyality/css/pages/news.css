@@ -1,0 +1,12 @@
+/* -- custom css for file news.html -- */
+
+/* -- lead clampin -- */
+#obj-67903 {
+	-webkit-line-clamp: 4;
+}
+
+/* -- fa f7-icons text-muted -- */
+#obj-51135 {
+	font-size: 25px;
+}
+
