@@ -251,5 +251,18 @@
   <script type="text/javascript" src="js/plugins/thorium.sqlite.min.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
 
+// Create a request variable and assign a new XMLHttpRequest object to it.
+var request = new XMLHttpRequest();
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET', 'https://api-us-east-1.graphcms.com/v2/ckq8b0sfs3qli01z68soy7qyw/master', true);
+
+request.onload =  Function () {
+ // Begin accessing JSON data here
+ }
+}
+
+// Send request
+request.send();
 </body>
 </html>
