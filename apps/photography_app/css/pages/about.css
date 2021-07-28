@@ -1,0 +1,37 @@
+/* -- custom css for file about.html -- */
+
+/* -- navbar -- */
+#navbar-o-49390 {
+	background-image: linear-gradient(to top, rgb(80, 80, 80), rgb(30, 30, 30));
+}
+
+/* -- block custom-block mb-2 -- */
+#obj-30874 {
+	border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+
+/* -- block custom-block block-text mt-2 mb-2 -- */
+#obj-gmtmoj573 {
+	border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+
+/* -- block custom-block mt-1 -- */
+#obj-arkrhs298 {
+	border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+

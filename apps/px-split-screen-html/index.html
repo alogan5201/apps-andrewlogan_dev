@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--
+	Split Screen by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+  <head>
+    <title>Restaurant</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="is-preload">
+    <nav
+      id="dl-menu"
+      class="dl-menuwrapper"
+      role="navigation"
+      style="display: inline-block"
+    >
+      <button class="dl-trigger">Open Menu</button>
+      <ul class="dl-menu">
+        <li><a href="https://www.andrewlogan.dev/#profile">Profile</a></li>
+        <li><a href="https://www.andrewlogan.dev/#skills">Skills</a></li>
+        <li>
+          <a href="https://www.andrewlogan.dev/#experience">Experience</a>
+        </li>
+        <li><a href="https://www.andrewlogan.dev/#education">Education</a></li>
+        <li><a href="https://www.andrewlogan.dev/#portfolio">Portfolio </a></li>
+        <li><a href="https://www.andrewlogan.dev/#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <div class="content">
+            <ul>
+              <li><img src="images/pic01.jpg" alt="" /></li>
+              <li><img src="images/pic02.jpg" alt="" /></li>
+              <li><img src="images/pic03.jpg" alt="" /></li>
+              <li><img src="images/pic04.jpg" alt="" /></li>
+              <li><img src="images/pic05.jpg" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Wrapper -->
+      <section id="wrapper">
+        <div class="inner">
+          <a href="https://www.andrewlogan.dev/#portfolio">
+            <h1>
+              <i class="fas fa-arrow-left left-arrow"></i><b>All</b>Projects
+            </h1>
+          </a>
+
+          <h2>Restaurant</h2>
+          <div class="flex-row">
+            <img
+              src="/images/javascript.jpeg"
+              alt=""
+              srcset=""
+              max-width="20px"
+            />
+            <img src="/images/framework7.jpg" alt="" srcset="" />
+            <img src="/images/capactiro.png" alt="" srcset="" />
+            <img src="/images/pwa.png" alt="" srcset="" />
+          </div>
+
+          <!--
+							<hr />
+							<h3>Form Stuff</h3>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="department">Department</label>
+										<div class="select-wrapper">
+											<select name="department" id="department">
+												<option value="">-</option>
+												<option value="sales">Sales</option>
+												<option value="tech">Tech Support</option>
+												<option value="null">/dev/null</option>
+											</select>
+										</div>
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+									<div class="field">
+										<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+									</div>
+									<div class="field">
+										<label>But are you a robot?</label>
+										<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+										<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><a href="#" class="button">Get Started</a></li>
+								</ul>
+							</form>
+							-->
+
+          <div class="iphone-x"></div>
+          <ul class="actions">
+            <li>
+              <a href="#" class="button primary icon solid fa-arrow-right"
+                >Next</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <footer>
+          <ul class="icons">
+            <li>
+              <a href="#" class="icon brands fa-twitter"
+                ><span class="label">Twitter</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-facebook-f"
+                ><span class="label">Facebook</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-github"
+                ><span class="label">GitHub</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="icon brands fa-instagram"
+                ><span class="label">Instagram</span></a
+              >
+            </li>
+          </ul>
+        </footer>
+      </section>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+      //dl-menu dl-menuopen
+
+      $(document).ready(function () {
+        $("#dl-menu").click(function () {
+          $(this).toggleClass("dl-menuopen");
+          $(".dl-trigger").toggleClass("dl-active");
+          $(".dl-menu").toggleClass("dl-menuopen");
+        });
+      });
+    </script>
+  </body>
+</html>

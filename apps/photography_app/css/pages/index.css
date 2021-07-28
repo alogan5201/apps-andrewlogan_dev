@@ -1,0 +1,171 @@
+/* -- custom css for file index.html -- */
+
+/* -- fa material-icons -- */
+#obj-lelxrn444 {
+	font-size: 25px;
+}
+
+/* -- block custom-block text-center -- */
+#obj-89295 {
+	border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+
+/* -- block-title text-center text-black font-weight-bold -- */
+#obj-66584 {
+	font-size: 20px;
+}
+
+/* -- block custom-block block-text mb-2 -- */
+#obj-mlojps411 {
+	font-size: 11px;
+	 border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+
+/* -- img rounded-circle -- */
+#obj-50895 {
+	max-width: 88px;
+	 width: 88px;
+	 max-height: 88px;
+	 height: 88px;
+}
+
+/* -- block custom-block -- */
+#obj-47048 {
+	border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+
+/* -- navbar no-hairline -- */
+#navbar-o-75660 {
+	background-image: linear-gradient(to top, rgb(80, 80, 80), rgb(30, 30, 30));
+}
+
+/* -- fa material-icons -- */
+#obj-34131 {
+	font-size: 25px;
+}
+
+/* -- fa f7-icons -- */
+#obj-pciqmd236 {
+	font-size: 25px;
+}
+
+/* -- page-content -- */
+#page-contents-o-28880 {
+	background-color: rgb(247, 247, 247);
+}
+
+/* -- flexbox display-flex flex-column justify-content-center align-items-center flex-nowrap -- */
+#obj-qumgbt135 {
+	height: 210px;
+	 background-image: url("../../img/header.png");
+	 background-size: cover;
+	 background-position: center center;
+	 background-repeat: repeat repeat;
+}
+
+/* -- h2 text-white mb-1 fw-800 -- */
+#obj-18549 {
+	margin-top: 8px;
+	 font-size: 34px;
+}
+
+/* -- h6 mt-0 text-white -- */
+#obj-53496 {
+	font-size: 12px;
+	 margin-bottom: 7px;
+}
+
+/* -- block custom-block text-center mb-3 pb-2 -- */
+#obj-wcggfn026 {
+	margin-top: -45px;
+	 border-right-width: 0px;
+	 border-left-width: 0px;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+	 border-top-width: 1px !important;
+	 border-bottom-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+}
+
+/* -- img avatar rounded-circle -- */
+#obj-50117 {
+	z-index: 99999;
+	 max-width: 90px;
+	 width: 90px;
+	 max-height: 90px;
+	 height: 90px;
+	 margin-left: 2px;
+	 margin-bottom: 2px;
+	 background-image: url("../../img/93086.jpg");
+	 background-size: cover;
+	 background-position: center center;
+	 background-repeat: no-repeat no-repeat;
+}
+
+/* -- row -- */
+#obj-lvfljl563 {
+	margin-top: -40px;
+}
+
+/* -- block custom-block mb-3 -- */
+#obj-tifgly367 {
+	border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+
+/* -- lead mb-2 -- */
+#obj-aoyltw333 {
+	font-size: 16px;
+}
+
+/* -- lead mb-2 -- */
+#obj-wmhyxl389 {
+	font-size: 16px;
+}
+
+/* -- img avatar rounded-circle -- */
+#obj-ibuyqq695 {
+	z-index: 99999;
+	 max-width: 90px;
+	 max-height: 90px;
+	 margin-left: 2px;
+	 margin-bottom: 2px;
+	 width: 32px;
+	 height: 32px;
+}
+
+/* -- lead ml-1 mt-0 mb-0 -- */
+#obj-mybfxs418 {
+	font-size: 15px;
+}
+
+/* -- lead ml-1 mt-0 mb-0 text-muted -- */
+#obj-pperai904 {
+	font-size: 11px;
+}
+
+/* -- toolbar toolbar-bottom-md -- */
+#toolbar-o-45431 {
+	background-image: linear-gradient(to top, rgb(80, 80, 80), rgb(30, 30, 30));
+}
+

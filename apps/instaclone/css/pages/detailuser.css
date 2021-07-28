@@ -1,0 +1,21 @@
+/* -- custom css for file detailuser.html -- */
+
+/* -- firebase-field firebase-img embed-responsive embed-custom rounded-circle -- */
+#obj-jcxpta911 {
+	margin-top: -50px;
+	 width: 114px;
+	 height: 114px;
+}
+
+/* -- embed-responsive-item -- */
+#img-obj-jcxpta911 {
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+/* -- firebase-field mt-4 font-weight-bold -- */
+#obj-jjgacx878 {
+	font-size: 20px;
+}
+

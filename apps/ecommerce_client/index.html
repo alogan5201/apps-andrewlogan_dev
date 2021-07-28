@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en"   >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0, user-scalable=0,viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta http-equiv="cleartype" content="on">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="google" content="notranslate">
+  <title>eCommerce Firebase</title>
+  <meta name="description" content="" />
+  <meta name="Author" content="" />
+  <meta name="Copyright" content="" />
+  <meta name="Keywords" content="" />
+  <meta name="Subject" content="" />
+  <meta property="og:url"  content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:site_name" content="" />
+  <meta name="theme-color" content="">
+  <meta name="apple-mobile-web-app-title" content="eCommerce">
+
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="msapplication-TileColor" content="">
+  <meta name="msapplication-TileImage" content="./icons/apple-touch-icon-144x144.png">
+  <meta name="msapplication-square70x70logo" content="./icons/apple-touch-icon-70x70.png">
+  <meta name="msapplication-square150x150logo" content="./icons/apple-touch-icon-150x150.png">
+  <meta name="msapplication-wide310x150logo" content="./icons/apple-touch-icon-150x150.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <link href="splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+  <link href="splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+  <link href="splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+  <link href="splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/framework7-bundle.min.css">
+  <link rel="stylesheet" href="css/framework7-keypad.min.css">
+  <link rel="stylesheet" href="css/thorium.min.css">
+  <link rel="stylesheet" href="css/pages/index.css?r=76221">
+  <link rel="stylesheet" href="css/pages/history.css?r=68811">
+  <link rel="stylesheet" href="css/pages/orderdetail.css?r=55489">
+  <link rel="stylesheet" href="css/pages/productdetail.css?r=74762">
+  <link rel="stylesheet" href="css/classes.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class=" color-theme-blue" >
+  <div class="apploader"></div>
+  <div id="app" class="framework7-root">
+	<div class="panel-backdrop"></div>
+	<div id="panel-left" class="panel panel-left panel-init panel-cover" data-swipe="true">
+    		<div id="left-panel-page-o-jjgigo652" class="page">
+        			<div id="left-panel-page-content" class="page-content"></div>
+    		</div>
+	</div>
+
+	<div id="panel-right" class="panel panel-right panel-init panel-cover" data-swipe="true">
+    		<div id="right-panel-page-o-rujlrj589" class="page">
+        			<div id="right-panel-page-content" class="page-content"></div>
+    		</div>
+	</div>
+
+	<div id="view-main" class="view view-main view-init ios-edges" data-url="/">
+		<div id="page" class="page" data-name="index">
+		
+	<div id="navbar-o-jcmaex097" class="navbar"><div id="navbg-navbar-o-jcmaex097" class="navbar-bg"></div><div id="navbar-inner-o-yorvko337" class="navbar-inner ">
+<div id="left-o-wtscer269" class="left">
+<img id="obj-fpsrqn609" src="img/defaultavatar.png" alt="..." class="img avatar rounded-circle firebase_avatar" data-label="My Orders" data-page="history"></div>
+<div id="title-o-wxnflf499" class="title ">Shopping App<span id="obj-yddmaq562" class="subtitle">Example with Shopping Cart</span>
+</div>
+<div id="right-o-xasgzn467" class="right">
+<a id="obj-gbriid468" class="display-flex shoppingcartcontroller button" data-iconcolor="color-pink"><i class="f7-icons">cart_fill</i><span class="badge shoppingcartcounter color-pink">0</span></a></div>
+</div>
+
+</div>
+
+			<div id="page-contents-o-dclbnq121" class="page-content ptr-content" data-ptr-distance="44" data-ptr-mousewheel="false" data-ptr-repeater="virtual-list-obj-wpmrgg877"> <div id="page-contents-o-dclbnq121-preloader" class="ptr-preloader"><div class="preloader"></div><div class="ptr-arrow"></div></div><div id="obj-uvnuim512" class="toolbar firebase-virtual-list-searchbar"><form id="search-obj-uvnuim512" data-search-container="#virtual-list-obj-wpmrgg877" data-search-item="li" class="searchbar searchbar-init"><div class="searchbar-inner"><div class="searchbar-input-wrap"><input type="search" spellcheck="false" placeholder="Search"><i class="searchbar-icon"></i><span class="input-clear-button"></span></div><span class="searchbar-disable-button if-not-aurora">Cancel</span></div></form></div><div id="obj-wpmrgg877" class="firebase-virtual-list" data-self-scroll="">	<div id="virtual-list-obj-wpmrgg877" class="list virtual-list searchbar-found firebase-virtual-list-content no-hairlines-between row no-gap multicol" data-collection="products" data-filter-field="" data-filter-operator="==" data-filter-value="" data-filter-field2="" data-filter-operator2="==" data-filter-value2="" data-order-field="" data-order-way="asc" data-limit="0" data-user-data="false" data-col-count="2" data-col-count-tablet="4" data-transition="f7-cover-v" data-detail="productdetail"><div class="searchbar-backdrop"></div> 
+<div id="virtual-list-obj-wpmrgg877-template" class="virtuallist-template" data-line-height="331">
+<li id="li_obj-wpmrgg877" class="item-firebase col-50 medium-25" href="#" data-index="{{dataindex}}" data-key="{{uid}}">
+<div id="obj-zgqvan227" class="card m-1"><div id="obj-efalnv806" class="card-content card-content-padding"><div id="obj-ffgigz449" class="firebase-field firebase-img embed-responsive embed-responsive-1by1"><div class="embed-responsive-item" id="img-obj-ffgigz449" data-firebase-field="productimage" style="background-image:url({{productimage}});"></div></div><div id="obj-ehegrk840" class="firebase-field mt-2 text-center text-nowrap" data-firebase-field="productname"><p id="p-obj-ehegrk840">{{productname}}</p> </div><div id="obj-ejwcph638" class="firebase-field text-center text-muted" data-firebase-field="productsubtitle"><p id="p-obj-ejwcph638" class="">{{productsubtitle}}</p> </div><div id="obj-cmkdua389" class="flexbox display-flex flex-row justify-content-center align-items-center flex-nowrap"><h6 id="obj-gmcrym118" class="h6 font-weight-bold m-0 p-0 text-danger">$<br></h6><div id="obj-flkvap320" class="firebase-field text-center m-0 p-0 text-danger font-weight-bold" data-firebase-field="producprice"><p id="p-obj-flkvap320" class="">{{producprice}}</p> </div></div></div>
+<div id="obj-jmslyj300" class="card-footer"><a id="obj-nzexao557" class="button firebase-action-button firebase-shopping-cart" role="button" data-confirmation="Added to Shopping Cart" data-index="{{dataindex}}" data-key="{{uid}}" data-price-field="producprice" data-name-field="productname" data-image-field="productimage"><i class="f7-icons">cart_badge_plus</i>Add to Cart</a></div>
+</div>
+</li>
+</div>
+</div></div></div>
+		</div>           	
+         </div>
+</div>
+
+  <div class="login-screen">
+    <div class="view">
+        <div class="page">
+            <div class="page-content login-screen-content">
+                <div class="login-screen-title">eCommerce</div>
+                <div class="block text-center">
+                    
+                    <h1 data-translate="signin">Sign In</h1>
+                </div>
+                <form id="firebase-signin-form" name="firebase-signin-form"
+                    class="list no-hairlines-md firebase-signin-form form-ajax-submit ">
+                    <ul>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div data-translate="email" class="item-title item-label" autocomplete="on">email</div>
+                                <div class="item-input-wrap">
+                                    <input data-translate="enteryouremail" id="firebase_email" name="firebase_email"
+                                        class="firebase_email" type="email" maxlength="255" required
+                                        placeholder="Enter your email">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div data-translate="password" class="item-title item-label">password</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_password" name="firebase_password" autocomplete="on"
+                                        class="firebase_password" data-translate="enteryourpassword" maxlength="255"
+                                        type="password" required placeholder="Enter your password">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="block custom-block">
+                        <button type="submit" class="col button button-raised button-fill  submit_firebase-signin"
+                            id="submit_firebase-signin" data-translate="signin">Sign In</button>
+                    </div>
+                    <div class="block custom-block">
+    <button class="col button button-raised firebase_register" data-translate="register" href="#">Register</button>
+</div>
+
+                    <div class="block custom-block text-center mt-3">
+                        <a class="link firebase_resetpasswword" data-translate="resetpassword" href="#"><small>Reset my
+                                Password</small></a>
+                    </div>
+                </form>
+                <div class="block-footer mt-3 mb-0">
+                    <p data-translate="loginwith">Or Login With:</p>
+                </div>
+                <div class="flexbox display-flex flex-row justify-content-center align-items-center flex-nowrap">
+                    <a class="link firebase_fb_login text-muted"><i class="fa fa-facebook-square s-6 m-2"></i></a>
+                    <a class="link firebase_google_login text-muted"><i class="fa fa-google-plus-square s-6 m-2"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="popup popup-tablet-fullscreen resetpassword-screen">
+    <div class="view">
+        <div class="page">
+
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="left">
+                        <a class="link popup-close" data-translate="close">Close</a>
+                    </div>
+                    <div class="title" data-translate="resetpassword">Reset Password</div>
+                    <div class="right">
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-content login-screen-content">
+                <form id="firebase-resetpw-form" name="firebase-resetpw-form"
+                    class="list firebase-resetpw-form form-ajax-submit ">
+                    <div class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-input-wrap">
+                                <input id="firebase_resetpw_email" name="firebase_resetpw_email"
+                                    class="firebase_resetpw_email" type="email" required=""
+                                    data-translate="enteryouremail" placeholder="Enter your email" maxlength="255"
+                                    autocomplete="on" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block custom-block">
+                        <button type="submit" class="button button-raised button-fill resetpassword-submit"
+                            id="resetpassword-submit" data-translate="resetpassword">Reset Password</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popup popup-tablet-fullscreen register-screen">
+    <div class="view">
+        <div class="page">
+
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="left">
+                        <a class="link popup-close" data-translate="close">Close</a>
+                    </div>
+                    <div class="title" data-translate="register">Register</div>
+                    <div class="right">
+                        <a id="submit_firebase-register" class="link submit_firebase-register"
+                            data-translate="register">Register</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-content login-screen-content">
+                <div class="block text-center">
+                    
+                </div>
+                <form id="firebase-register-form" name="firebase-register-form" class="list firebase-register-form"
+                    autocomplete="on">
+                    <ul>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="email">email</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_register_email" name="firebase_register_email"
+                                        class="firebase_register_email" type="email" required
+                                        data-translate="enteryouremail" placeholder="Enter your email" maxlength="255"
+                                        autocomplete="on">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="displayname">Display Name</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_register_displayname" name="firebase_register_displayname"
+                                        class="firebase_register_displayname" type="text" required
+                                        data-translate="enteryourname" placeholder="Enter your Name" maxlength="255">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="password">Password</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_register_password" name="firebase_register_password"
+                                        class="firebase_register_password" type="password" required
+                                        data-translate="enteryourpassword" placeholder="Enter your Password"
+                                        maxlength="255" autocomplete="on">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="passwordverification">Password
+                                    Verification</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_register_password_verification"
+                                        name="firebase_register_password_verification"
+                                        class="firebase_register_password_verification" type="password" required
+                                        data-translate="verifyyourpassword" placeholder="Verify your Password"
+                                        maxlength="255" autocomplete="on">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="popup popup-tablet-fullscreen profile-screen">
+    <div class="view">
+        <div class="page">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="left">
+                        <a class="link popup-close" data-translate="close">Close</a>
+                    </div>
+                    <div class="title" data-translate="profile">Profile
+                    </div>
+                    <div class="right">
+                        <a class="link submit_firebase-profile" id="submit_firebase-profile"
+                            data-translate="save">Save</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-content login-screen-content">
+                <form id="firebase-profile-form" name="firebase-profile-form"
+                    class="list firebase-profile-form form-ajax-submit ">
+                    <div class="block custom-block text-center">
+                        <img src="img/defaultavatar.png"
+                            class="img rounded-circle img-thumbnail firebase_profile_avatar">
+                        <input type="file" name="firebase_profile_avatar_input" accept="image/png, image/jpeg"
+                            class="firebase_profile_avatar_input" id="firebase_profile_avatar_input">
+                    </div>
+                    <div class="block custom-block text-center">
+                        <progress value="0" id="firebase-upload-progress" class="firebase-upload-progress"
+                            max="100">0%</progress>
+                        <h3 class="firebase-displayname"></h3>
+                    </div>
+                    <ul>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="email">email</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_profile_email" name="firebase_profile_email"
+                                        class="firebase_profile_email" type="email" maxlength="255" required readonly
+                                        disabled>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label" data-translate="displayname">Display Name</div>
+                                <div class="item-input-wrap">
+                                    <input id="firebase_profile_displayname" name="firebase_profile_displayname"
+                                        class="firebase_profile_displayname" type="text" required
+                                        data-translate="enteryourname" placeholder="Enter your Name" maxlength="255">
+                                </div>
+                            </div>
+                        </li>
+
+                        
+
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="popover firebase-popover">
+    <div class="popover-inner">
+        <div class="list">
+            <ul>
+                <li><a class="list-button item-link firebase_editprofile popover-close" href="#"
+                        data-translate="editprofile">Edit My Profile</a></li>
+                <li><a id="firebasecustomprofile" class="list-button item-link popover-close" href="#" data-transition="f7-cover-v" >Profile Detail</a></li>
+                <li><a class="list-button item-link firebase_resetpasswword popover-close" href="#"
+                        data-translate="resetpassword">Reset Password</a></li>
+                <li><a class="list-button item-link firebase-user-logout popover-close" href="#"
+                        data-translate="logout">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+  <div class="popup popup-tablet-fullscreen shoppingcartpopup" data-currency="USD"
+    data-currency-symbol="$" data-symbol-left="true" data-payment-provider="payPalCheckoutGateway"
+    data-delivery="20.00" data-address-pane="true" data-skip-payment="false">
+    <div class="view">
+        <div class="page navbar-fixed">
+            <div class="navbar">
+                <div class="navbar-bg"></div>
+                <div class="navbar-inner">
+                    <div class="left"><a href="#" class="link popup-close">Close</a></div>
+                    <div class="center" style="left: 107.5px;">Shopping Cart</div>
+                    <div class="right"><a href="#" class="link shoppingcart-clear">Clear</a></div>
+                </div>
+            </div>
+
+            <div id="shoppingcartpopup-content" class="page-content">
+
+                <div class="shoppingcart-template">
+                    <li data-object-id="{objectid}">
+                        <div class="item-content">
+                            <div class="item-media">
+                                <div class="item-media-img" style="{image}">
+                                </div>
+                            </div>
+                            <div class="item-inner">
+                                <div class="item-title-row">{title}</div>
+                                <div class="item-subtitle">{price}</div>
+                                <div class="item-text">
+                                    <div data-object-id="{objectid}"
+                                        class="stepper stepper-small stepper-init stepper-fill stepper-shoppingcart color-gray stepper-init"
+                                        data-value="{qty}" data-min="0" data-step="1" data-wraps="true">
+                                        <div class="stepper-button-minus"></div>
+                                        <div class="stepper-value">{qty}</div>
+                                        <div class="stepper-button-plus"></div>
+                                    </div>
+                                </div>
+                            </div>
+                    </li>
+                </div>
+
+
+
+                <!-- TabsBlock-->
+                <div class="tabs">
+                    <!-- each tabs is a "page-content" -->
+                    <div class="page-content tab tab-active pt-3" id="shoppingCartTab1">
+                        <div class="block block-strong inset mt-0">
+                            <h1>Products</h1>
+                        </div>
+                        <div class="list media-list no-hairlines-between no-hairlines">
+                            <ul id="shoppingcartcontents" class="shoppingcartcontents">
+                            </ul>
+                        </div>
+                        <div class="block">
+
+                            <div class="deliveryblock flexbox  flex-row mb-3 justify-content-space-between align-items-center flex-nowrap shoppingcartsummary">
+                                <p class="shoppingcartlabel">Delivery Fees</p>
+                                <p class="shoppingcartdelivery"><span>$</span>0.00</p>
+                            </div>
+
+
+                            <div
+                                class="flexbox display-flex flex-row justify-content-space-between align-items-center flex-nowrap shoppingcartsummary">
+                                <p class="shoppingcartlabel">Order Total</p>
+                                <p class="shoppingcarttotal"><span>$</span>0.00</p>
+                            </div>
+
+                            <div class="shoppingcartbuttonblock">
+                                <a id="shoppingcartbutton1"
+                                    class="col button button-fill button-large shoppingcartbutton">Continue</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Page 2 - Customer Address -->
+                    <div class="page-content tab pt-3" id="shoppingCartTab2">
+                        <div class="block block-strong inset mt-0">
+                            <h1>Address</h1>
+                        </div>
+
+                        <form id="shoppingcartform" name="shoppingcartform"
+                            class="list form  pb-0  inline-labels no-hairlines">
+                            <ul>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Full Name
+                                        </div>
+                                        <div class="item-input-wrap">
+                                            <input id="shoppingcart-fullname" name="shoppingcart-fullname"
+                                                class="no-store-data" value="" type="text" placeholder="" required
+                                                validate>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">email
+                                        </div>
+                                        <div class="item-input-wrap">
+                                            <input id="shoppingcart-email" name="shoppingcart-email"
+                                                class="no-store-data" value="" type="email" placeholder="" required
+                                                validate>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="item-content item-input">
+                                    <div id="obj-omrpdw436" class="item-inner">
+                                        <div id="obj-lrsvxz378" class="item-title item-label">Address
+                                        </div>
+                                        <div id="form_-pehfhx520" class="item-input-wrap">
+                                            <textarea id="shoppingcart-address" class="no-store-data"
+                                                name="shoppingcart-address" rows="3" placeholder="" required
+                                                validate></textarea>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div id="obj-nysasv577" class="item-inner">
+                                        <div id="obj-ziyxxt540" class="item-title item-label">Zip Code
+                                        </div>
+                                        <div id="form_-cvnhhr791" class="item-input-wrap">
+                                            <input id="shoppingcart-zipcode" class="no-store-data"
+                                                name="shoppingcart-zipcode" value="" type="text" placeholder="" required
+                                                validate>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div id="obj-vkqapb307" class="item-inner">
+                                        <div id="obj-bwzgnk947" class="item-title item-label">City
+                                        </div>
+                                        <div id="form_-ekdrrq459" class="item-input-wrap">
+                                            <input id="shoppingcart-city" class="no-store-data" name="shoppingcart-city"
+                                                value="" type="text" placeholder="" required validate>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Country
+                                        </div>
+                                        <div class="item-input-wrap">
+                                            <input id="shoppingcart-country" class="no-store-data"
+                                                name="shoppingcart-country" value="" type="text" placeholder="" required
+                                                validate>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div id="obj-cuvzet415" class="item-title item-label">Notes
+                                        </div>
+                                        <div id="form_-eiakiy918" class="item-input-wrap">
+                                            <textarea id="shoppingcart-notes" class="no-store-data"
+                                                name="shoppingcart-notes" rows="3" placeholder=""></textarea>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </form>
+
+                        <div class="block">
+                            <a id="shoppingcartbutton3"
+                                class="col button button-fill button-large shoppingcartbutton">Continue</a>
+                        </div>
+                    </div>
+
+                    <!-- Third tab, should have "tab" class and unique id attribute -->
+                    <div class="page-content tab pt-0" id="shoppingCartTab3">
+                        <div class="block block-strong inset">
+                            <h1>Payment</h1>
+                        </div>
+
+                        <div class="block">
+                            <div
+                                class="flexbox display-flex flex-row justify-content-space-between align-items-center flex-nowrap shoppingcartsummary">
+                                <p class="shoppingcartlabel">Order Total</p>
+                                <p class="shoppingcarttotal">0.00</p>
+                            </div>
+                        </div>
+
+                        <div id="paymentprocessor" class="paymentprocessor block block-strong inset">
+                            <a id="saveorderbtn" class="col button button-fill button-large saveorderbtn" >Order</a>
+                        </div>
+                    </div>
+
+                    <!-- 4th tab, should have "tab" class and unique id attribute -->
+                    <div class="page-content tab pt-0" id="shoppingCartTab4">
+                        <div class="block block-strong inset">
+                            <h1>Payment</h1>
+                            <p>Thank you for your purchase!</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script type="text/javascript" src="js/service-worker-register.js"></script>
+  <script type="text/javascript" src="js/framework/framework7-bundle.min.js"></script>
+  <script type="text/javascript" src="js/framework/framework7-keypad.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/firebasejs/8.8.0/firebase-storage.js"></script>
+  <script type="text/javascript" src="js/thorium.config.js"></script>
+  <script type="text/javascript" src="js/plugins/thorium.core.min.js"></script>
+  <script type="text/javascript" src="js/plugins/thorium.firebase.locales.js"></script>
+  <script type="text/javascript" src="js/plugins/thorium.firebase.min.js"></script>
+  <script type="text/javascript" src="js/plugins/thorium.firestore.min.js"></script>
+  <script type="text/javascript" src="js/plugins/thorium.firestore.ecommerce.min.js"></script>
+  <script type="text/javascript" src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
+  <script type="text/javascript" src="js/plugins/com.thorium.paypal.checkout/com.thorium.paypal.checkout.js"></script>
+
+  <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+/* -- custom css for file productdetail.html -- */
+
+/* -- block custom-block -- */
+#obj-rtlegg455 {
+	border-top-width: 1px !important;
+	 border-top-style: dashed !important;
+	 border-top-color: transparent !important;
+	 border-bottom-width: 1px !important;
+	 border-bottom-style: dashed !important;
+	 border-bottom-color: transparent !important;
+}
+
+/* -- firebase-field font-weight-bold mb-2 text-center -- */
+#obj-bplflz997 {
+	font-size: 19px;
+}
+
+/* -- firebase-field mb-2 text-center -- */
+#obj-fsypve275 {
+	font-size: 15px;
+}
+
+/* -- embed-responsive-item -- */
+#img-obj-upfsyj322 {
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+/* -- firebase-field mb-4 text-danger font-weight-bold text-center -- */
+#obj-czmksq175 {
+	font-size: 24px;
+}
+
+/* -- button firebase-action-button firebase-shopping-cart tooltip-init active-state -- */
+#obj-nmucpu395 {
+	font-size: 13px;
+}
+

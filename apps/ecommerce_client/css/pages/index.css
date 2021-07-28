@@ -1,0 +1,34 @@
+/* -- custom css for file index.html -- */
+
+/* -- display-flex shoppingcartcontroller button -- */
+#obj-gbriid468 {
+	font-size: 20px;
+}
+
+/* -- embed-responsive-item -- */
+#img-obj-ffgigz449 {
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+/* -- firebase-field mt-2 text-center text-nowrap -- */
+#obj-ehegrk840 {
+	font-size: 15px;
+}
+
+/* -- firebase-field text-center text-muted -- */
+#obj-ejwcph638 {
+	font-size: 12px;
+}
+
+/* -- h6 font-weight-bold m-0 p-0 text-danger -- */
+#obj-gmcrym118 {
+	font-size: 19px;
+}
+
+/* -- firebase-field text-center m-0 p-0 text-danger font-weight-bold -- */
+#obj-flkvap320 {
+	font-size: 19px;
+}
+
