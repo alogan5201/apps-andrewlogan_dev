@@ -1,21 +1,30 @@
 /* --- Create your own CSS Here */
-.floating-action-btn{
-position: absolute !important;
-bottom: 1% !important;
-right:  3%  !important;
-z-index: 999999999 !important;
+.floating-action-btn {
+  position: absolute !important;
+  bottom: 1% !important;
+  right: 3% !important;
+  z-index: 999999999 !important;
 }
 .toolbar .link {
   color: black !important;
 }
 
 #toolbar-o-45431 {
-  background-image: linear-gradient(to top, rgb(80 80 80 / 61%), rgb(30 30 30 / 0%)) !important;
+  background-image: linear-gradient(
+    to top,
+    rgb(80 80 80 / 61%),
+    rgb(30 30 30 / 0%)
+  ) !important;
 }
 
-
 .page-content::-webkit-scrollbar {
-  width: 0px !important; 
+  width: 0px !important;
   display: block !important;
   background-color: transparent !important;
-  border: 0px transparent !important; }
+  border: 0px transparent !important;
+}
+
+.page-content {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}

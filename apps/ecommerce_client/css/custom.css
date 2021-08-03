@@ -1,9 +1,13 @@
 /* --- Create your own CSS Here */
 
-
-
 .page-content::-webkit-scrollbar {
-  width: 0px !important; 
+  width: 0px !important;
   display: block !important;
   background-color: transparent !important;
-  border: 0px transparent !important; }
+  border: 0px transparent !important;
+}
+
+.page-content {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
