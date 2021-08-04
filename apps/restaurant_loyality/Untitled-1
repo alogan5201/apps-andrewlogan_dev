@@ -1,0 +1,147 @@
+/* 3 (pressed) */
+
+position: absolute;
+left: 5.07%;
+right: 50.67%;
+top: 51.23%;
+bottom: 26.11%;
+
+
+
+/* base */
+
+position: absolute;
+left: 5.07%;
+right: 50.67%;
+top: 51.23%;
+bottom: 26.11%;
+
+background: linear-gradient(47.94deg, rgba(164, 110, 80, 0.95) 2.32%, rgba(215, 171, 114, 0.9) 97.68%), #282828;
+box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.25);
+
+
+/* line  */
+
+position: absolute;
+left: 9.07%;
+right: 68.53%;
+top: 70.69%;
+bottom: 28.69%;
+
+background: #FFFFFF;
+
+
+/* Immanuel */
+
+position: absolute;
+left: 9.33%;
+right: 53.33%;
+top: 65.52%;
+bottom: 30.54%;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Menu coffee 1 */
+
+position: absolute;
+width: 43px;
+height: 58px;
+left: 123px;
+top: 429px;
+
+
+
+/* Layer 2 */
+
+position: absolute;
+left: 2.17%;
+right: 2.17%;
+top: 1.43%;
+bottom: 1.43%;
+
+
+
+/* VECTOR */
+
+position: absolute;
+left: 2.17%;
+right: 2.17%;
+top: 1.43%;
+bottom: 1.43%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 17.59%;
+right: 46.16%;
+top: 64.87%;
+bottom: -1.85%;
+
+border: 3px solid rgba(255, 255, 255, 0.86);
+transform: matrix(0.67, -0.67, 0.84, 0.66, 0, 0);
+
+
+/* Vector */
+
+position: absolute;
+left: 31.6%;
+right: 30.45%;
+top: 54.47%;
+bottom: 21.74%;
+
+border: 3px solid rgba(255, 255, 255, 0.86);
+
+
+/* Vector */
+
+position: absolute;
+left: 2.17%;
+right: 2.17%;
+top: 16.52%;
+bottom: 1.43%;
+
+border: 3px solid rgba(255, 255, 255, 0.86);
+
+
+/* Vector */
+
+position: absolute;
+left: 28.38%;
+right: 28.38%;
+top: 32.43%;
+bottom: 58.4%;
+
+border: 3px solid rgba(255, 255, 255, 0.86);
+
+
+/* Vector */
+
+position: absolute;
+left: 40.39%;
+right: 40.39%;
+top: 91.2%;
+bottom: 8.8%;
+
+border: 3px solid rgba(255, 255, 255, 0.86);
+
+
+/* Vector */
+
+position: absolute;
+left: 2.17%;
+right: 19.95%;
+top: 1.43%;
+bottom: 83.48%;
+
+border: 3px solid rgba(255, 255, 255, 0.86);
