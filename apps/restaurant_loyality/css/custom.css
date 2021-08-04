@@ -10,3 +10,16 @@
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;
 }
+
+div#obj-80742 {
+  height: 100vh !important;
+}
+
+#obj-80666 {
+  height: 100% !important;
+  background-size: contain !important;
+}
+
+.embed-responsive-21by9 {
+  padding-top: 0 !important;
+}

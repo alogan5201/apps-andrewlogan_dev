@@ -33,12 +33,14 @@
   border-bottom-width: 1px !important;
   border-bottom-style: dashed !important;
   border-bottom-color: transparent !important;
+  min-height: 800px !important;
 }
 
 /* -- figure embed-responsive embed-responsive-21by9 -- */
 #obj-80666 {
   background-image: url("../../img/badabings-band-pwa-header.png");
-  background-size: cover;
+  background-size: contain;
+  height: 100% !important;
 }
 
 /* -- block custom-block block-text text-white mt-1 mb-1 pt-3 pb-3 -- */
@@ -134,17 +136,17 @@
 
 /* -- collection-item-image -- */
 #obj-53438 {
-  background-image: url(../../img/57898.png);
+  background-image: url(../../img/steven.jpg);
 }
 
 /* -- collection-item-image -- */
 #obj-70158 {
-  background-image: url(../../img/62536.png);
+  background-image: url(../../img/hudson.jpg);
 }
 
 /* -- collection-item-image -- */
 #obj-58505 {
-  background-image: url(../../img/64872.png);
+  background-image: url(../../img/seth.jpg);
 }
 
 /* -- collection-item-image -- */
@@ -238,4 +240,63 @@
 }
 #obj-98708 {
   margin-top: 50%;
+}
+
+#obj1 {
+  background-image: url(../../img/gallery/1.jpg);
+}
+
+#obj2 {
+  background-image: url(../../img/gallery/2.jpg);
+}
+
+#obj3 {
+  background-image: url(../../img/gallery/3.jpg);
+}
+
+#obj4 {
+  background-image: url(../../img/gallery/4.jpg);
+}
+
+#obj5 {
+  background-image: url(../../img/gallery/5.jpg);
+}
+
+#obj6 {
+  background-image: url(../../img/gallery/6.jpg);
+}
+
+#obj7 {
+  background-image: url(../../img/gallery/7.jpg);
+}
+
+#obj8 {
+  background-image: url(../../img/gallery/8.jpg);
+}
+
+#obj9 {
+  background-image: url(../../img/gallery/9.jpg);
+}
+
+#obj10 {
+  background-image: url(../../img/gallery/10.jpg);
+}
+
+#obj11 {
+  background-image: url(../../img/gallery/11.jpg);
+}
+
+#obj12 {
+  background-image: url(../../img/gallery/12.jpg);
+}
+
+#obj13 {
+  background-image: url(../../img/gallery/13.jpg);
+}
+
+#obj14 {
+  background-image: url(../../img/gallery/14.jpg);
+}
+#obj15 {
+  background-image: url(../../img/gallery/15.jpg);
 }

@@ -89,8 +89,6 @@
   display: none !important;
 }
 
-
-
 .theme-dark {
   background-color: rgb(18, 18, 18) !important;
 }
@@ -351,12 +349,6 @@ h6 {
 
 .embed-responsive-16by9 {
   padding-top: 56.25%;
-  height: 0px !important;
-  min-height: 0px !important;
-}
-
-.embed-responsive-21by9 {
-  padding-top: 42.857143%;
   height: 0px !important;
   min-height: 0px !important;
 }
@@ -1535,6 +1527,7 @@ h6 {
   background: url(../img/transparent.png) no-repeat center;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
+  min-height: 712px !important;
 }
 
 .flex-row {
@@ -3075,7 +3068,7 @@ form .inline-labels ::-webkit-input-placeholder {
 }
 .paymentprocessor {
   height: auto;
-  border: 1px solid rgba(130,130,130,0.3);
+  border: 1px solid rgba(130, 130, 130, 0.3);
   min-height: 200px;
 }
 .shoppingcartbuttonblock {
@@ -3190,4 +3183,3 @@ hr {
 .color-theme-fill .popup .navbar {
   background-color: var(--f7-theme-color) !important;
 }
-
