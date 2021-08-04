@@ -39,8 +39,9 @@
 /* -- figure embed-responsive embed-responsive-21by9 -- */
 #obj-80666 {
   background-image: url("../../img/badabings-band-pwa-header.png");
-  background-size: cover;
+  background-size: 100% 88%;
   height: 100% !important;
+  background-position: top center;
 }
 
 /* -- block custom-block block-text text-white mt-1 mb-1 pt-3 pb-3 -- */
