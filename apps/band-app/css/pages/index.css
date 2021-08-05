@@ -39,9 +39,21 @@
 /* -- figure embed-responsive embed-responsive-21by9 -- */
 #obj-80666 {
   background-image: url("../../img/badabings-band-pwa-header.png");
+  background-size: 100% 100%;
+  height: 100% !important;
+  background-position: center center;
+  /* 
+  background-image: linear-gradient(
+      to bottom,
+      rgb(245 246 252 / 11%),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../../img/badabings-band-pwa-header.png);
+
   background-size: 100% 88%;
   height: 100% !important;
-  background-position: top center;
+  background-position: center center;
+  color: white;*/
 }
 
 /* -- block custom-block block-text text-white mt-1 mb-1 pt-3 pb-3 -- */
@@ -297,4 +309,9 @@
 }
 #obj15 {
   background-image: url(../../img/gallery/15.jpg);
+}
+
+.tabbar-labels .link,
+.tabbar-labels .tab-link {
+  justify-content: center !important;
 }
