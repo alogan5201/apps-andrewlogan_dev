@@ -10,7 +10,9 @@ div::-webkit-scrollbar {
   border: 0px transparent !important;
       background: #fff !important
 }
-
+    html {
+      background: #fff !important
+    }
 .page-content {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none;

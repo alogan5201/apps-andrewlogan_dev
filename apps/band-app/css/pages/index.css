@@ -49,6 +49,9 @@
       background-color: #fff !important;
       background: #fff !important
     }
+        html {
+      background: #fff !important
+    }
 /* -- fa f7-icons -- */
 #obj-24148 {
   font-size: 25px;
