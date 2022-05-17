@@ -4,7 +4,10 @@
  * framework7 v6.x (https://framework7.io) MIT Licensed
  * Thorium builder© Copyright 2019-2021 Nymphide Lab, All Rights Reserved.
 */
-
+html {
+  background: #111827 !important;
+  background-color: #111827 !important;
+}
 .disable-bounce {
   overflow: hidden !important;
 }

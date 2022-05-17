@@ -23,3 +23,8 @@ div::-webkit-scrollbar {
       max-height: 712px !important;
       margin: 0 auto !important;
     }
+
+    html {
+  background: #111827 !important;
+  background-color: #111827 !important;
+}
